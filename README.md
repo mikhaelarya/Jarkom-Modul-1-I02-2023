@@ -63,6 +63,7 @@ The name of the server is:
 gunicorn.
 ```
 
+<br><br>
 
 ### Soal 3
 
@@ -82,3 +83,42 @@ A lot of the protocols are udp when checked using the address filter. Therefore,
 
 Results:
 The number of packets commuting via address 239.255.255.250 and port 3702 amounts to **21**, and the Protocol Layer Transport is based on **UDP**.
+
+<br><br>
+
+### Soal 4
+
+Objective:
+Find the checksum value from packet 130.
+
+1. Scroll to packet 130 in the Wireshark capture window.
+
+2. Expand the UDP packet details.
+
+3. Look for the Checksum field.
+
+4. The checksum value is the two-byte hexadecimal value in the Checksum field.
+
+Result:
+The Checksum value from packet 130 is
+```
+0x18e5
+```
+
+<br><br>
+
+### Soal 7
+
+Objective:
+Find the amount of packets addressed to 184.87.193.88
+
+1. Filter using ip.dst == 184.87.193.88 to only show packets addressed to 184.87.193.88
+
+2. Count the amount of packets listed with the filter
+
+Result:
+Number of packets is **6**
+
+<br><br>
+
+### Soal 10
