@@ -128,3 +128,26 @@ Number of packets is **6**
 <br><br>
 
 ### Soal 10
+Objective:
+Find the credentials to login to telnet using wireshark
+
+
+Procedure:
+
+1. Apply the following filter to only display telnet packets: **telnet**, then look for packets that contain the string **Data : Password :**. The next packet after the packet that contains **Data : Password :** will contain the username and password data.
+
+2. To only filter the packets to show the ones that contain the password, you can use the following filter: **contains Password :**.
+
+3. The packet that contains **Password :** is packet number 259, it is assumed that the next telnet packet has the value of the password as plaintext. The telnet filter is used again here to find the password : **kesayangannyak0k0**.
+
+4. The password value is then used in the next filter to find the username. The filter used is **telnet contains kesayangannya** , which contains a part of the password.
+
+5. Then, the username is found on the first one listed with the password attached to it, **dhafin:kesayangannyak0k0**
+
+Result:
+
+Packet number 81 contains the username and password:
+
+**Username: dhafin**
+**Password: kesayangannyak0k0**
+
