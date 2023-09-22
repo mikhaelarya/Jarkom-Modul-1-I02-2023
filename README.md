@@ -4,7 +4,7 @@
 ### Soal 1
 
 Objective:
-Identify the raw sequence numbers (seq nums) and acknowledge numbers (ack nums) of the packets that show the activity of uploading files and its corresponding response.
+Identify the raw sequence numbers (**seq nums**) and acknowledge numbers (**ack nums**) of the packets that show the activity of uploading files and its corresponding response.
 
 1. Identify all packets containing the STOR command.
 
@@ -68,7 +68,7 @@ gunicorn.
 ### Soal 3
 
 Objective:
-Get the number of packets coming to and from the address 239.255.255.250 with the port 3702
+Get the number of packets coming to and from the address **239.255.255.250** with the port **3702**.
 
 1. Filter the packets to only show packets coming to and from address 239.255.255.250 with ip.dst == 239.255.255.250
 
@@ -89,7 +89,7 @@ The number of packets commuting via address 239.255.255.250 and port 3702 amount
 ### Soal 4
 
 Objective:
-Find the checksum value from packet 130.
+Find the checksum value from packet **130**.
 
 1. Scroll to packet 130 in the Wireshark capture window.
 
@@ -110,7 +110,7 @@ The Checksum value from packet 130 is
 ### Soal 7
 
 Objective:
-Find the amount of packets addressed to 184.87.193.88
+Find the amount of packets addressed to **184.87.193.88**.
 
 1. Filter using ip.dst == 184.87.193.88 to only show packets addressed to 184.87.193.88
 
