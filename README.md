@@ -4,7 +4,7 @@
 ### Soal 1
 ![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal1-1.png)
 ![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal1-2.png)
-Objective:
+<br><br>Objective:
 Identify the raw sequence numbers (**seq nums**) and acknowledge numbers (**ack nums**) of the packets that show the activity of uploading files and its corresponding response.
 
 1. Identify all packets containing the STOR command.
@@ -35,6 +35,8 @@ Raw ack num: 258040696
 <br><br>
 
 ### Soal 2
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal2-1.png)
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal2-2.png)
 
 Objective:
 Find the web server name and filter according to a down-top approach.
@@ -60,12 +62,14 @@ The web server name is extracted from the **server: header** in the bottom HTTP 
 
 The name of the server is
 ```
-gunicorn.
+gunicorn
 ```
 
 <br><br>
 
 ### Soal 3
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal3-1.png)
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal3-2.png)
 
 Objective:
 Get the number of packets coming to and from the address **239.255.255.250** with the port **3702**.
@@ -93,6 +97,8 @@ The number of packets commuting via address 239.255.255.250 and port 3702 amount
 <br><br>
 
 ### Soal 4
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal4-1.png)
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal4-2.png)
 
 Objective:
 Find the checksum value from packet **130**.
@@ -114,6 +120,8 @@ The Checksum value from packet 130 is
 <br><br>
 
 ### Soal 7
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal7-1.png)
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal7-2.png)
 
 Objective:
 Find the amount of packets addressed to **184.87.193.88**.
@@ -128,7 +136,11 @@ Number of packets is **6**
 <br><br>
 
 ### Soal 10
-Objective:
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal10-1.png)
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal10-2.png)
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal10-3.png)
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal10-4.png)
+<br><br>Objective:
 Find the credentials to login to telnet using wireshark
 
 
