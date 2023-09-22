@@ -69,9 +69,15 @@ gunicorn.
 Objective:
 Get the number of packets coming to and from the address **239.255.255.250** with the port **3702**.
 
-1. Filter the packets to only show packets coming to and from address 239.255.255.250 with ip.dst == 239.255.255.250
+1. Filter the packets to only show packets coming to and from address 239.255.255.250 with
+```
+ip.dst == 239.255.255.250
+```
 
-2. Filter more packets by only showing ones with port number 3702 by using udp.dstport == 3702
+2. Filter more packets by only showing ones with port number 3702 by using
+```
+udp.dstport == 3702
+```
 
 3. Count the number of packets listed
 	
