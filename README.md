@@ -57,8 +57,7 @@ The contains server is used in the filter above assuming that the name of the we
 Result:
 The web server name is extracted from the **server: header** in the bottom HTTP request packet.
 
-The name of the server is:
-
+The name of the server is
 ```
 gunicorn.
 ```
