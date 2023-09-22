@@ -2,7 +2,8 @@
 <hr>
 
 ### Soal 1
-
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal1-1.png)
+![alt text](https://github.com/mikhaelarya/Jarkom-Modul-1-I02-2023/blob/main/images/soal1-2.png)
 Objective:
 Identify the raw sequence numbers (**seq nums**) and acknowledge numbers (**ack nums**) of the packets that show the activity of uploading files and its corresponding response.
 
@@ -41,7 +42,7 @@ Find the web server name and filter according to a down-top approach.
 1. Use the following filter to identify all HTTP requests :
 
 ```
-http (contains server)*
+http contains server
 ```
 
 
